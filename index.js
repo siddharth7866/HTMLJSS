@@ -107,7 +107,7 @@ function CreateUser(username,email,password) {
     this.password=password
 }
 
-// */
+// 
 // const chai=new CreateUser("sid","Siddharth@chai.com","123@xyz")
 // console.log(chai)
 
@@ -309,7 +309,38 @@ const ansh=new Ansh("male","Ansh Singh","Chuzua")
 
 
 ansh.speak()
+*/
+class Rice{
+    constructor(calr,type){
+        this.calr=calr
+        this.type=type
+    }
 
+    paddy(x){
+        console.log(`This is ${this.type} crop and ${x} kg`)
+    }
+}
+
+
+class Indiagate extends Rice{
+    constructor(calr,type,brand,x){
+        super(calr,type)
+        this.brand=brand
+        this.x=x
+    }
+
+    add(arg){
+        super.paddy(arg)
+        console.log(`This is premium quality of ${this.brand}`)
+    }
+}
+
+const kalanamak=new Rice("23","paddy")
+
+const indiagate=new Indiagate('34',"paddy","Charminar")
+
+// kalanamak.paddy(23)
+indiagate.add(23)
 
 
 

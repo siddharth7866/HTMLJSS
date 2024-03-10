@@ -135,3 +135,39 @@ console.log(x)
 
 let ab=10.345
 console.log(ab.toExponential(2))
+
+
+// let sid=[1,2,3,4,5,6,7,8,9,10]
+
+// console.log(sid.slice(4,-4))
+
+// let vis="      Sid              "
+// let fir="vis"
+// console.log(vis.concat('',fir))
+
+// console.log(vis.repeat(2))
+
+// let as="Siddharth"
+// let food=promt("your fav food is ")
+
+// console.log(`My name is ${as} and my fav food is ${food}`)
+
+// let y=new Number(123)
+// console.log(y.EPSILON)
+
+let sid=["mango","potato","Grapes"]
+let vishen=["papad","aachar","kapoor",["mango","potato","Grapes"]]
+let shahi=["Riyon","taramandal","siktour"]
+const newsid=sid.concat("Visen")
+console.log(vishen.flat())
+// console.log(sid.pop())
+// console.log(sid.push("Sidd"))
+// console.log(sid)
+// console.log(sid.at(-3))
+// console.log(sid.toString())
+// console.log(sid.length-1)
+
+// console.log(Array.isArray(sid))
+
+
+

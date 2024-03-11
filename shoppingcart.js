@@ -187,3 +187,20 @@ console.log(`sid-round ${sid}`)
 
 //To use math object we do not have to create object
 
+const sid={
+    name:"Siddharth",
+    education:"B.Tech",
+    profession:"Web Developer",
+    hobby:"Reading books"
+}
+
+console.log(sid.name)
+
+for(i in sid){
+    console.log(` object-${i}:${sid[i]}`)
+}
+
+console.log(Object.keys(sid))
+const val=Object.values(sid)
+console.log(typeof(val))
+console.log(Array.isArray(val))

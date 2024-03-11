@@ -169,5 +169,21 @@ console.log(vishen.flat())
 
 // console.log(Array.isArray(sid))
 
+// let sid=[1,2,3,4,5,6,7,8,100]
+const price=[23,12,34,22,65,120]
+const minp=Math.max(23,12,34,22,65,120)
+console.log(`Max Funct-${minp}`)
+console.log(Math.log(10))
+const sid=Math.round(4.56)
+const vss=Math.ceil(4.56)
+const sss=Math.floor(4.56)
+const dss=Math.trunc(4.56)
+const tss=Math.sign(0)
+console.log(`tss-sign ${tss}`)
+console.log(`dss-trunc ${dss}`)
+console.log(`sss-floor ${sss}`)
+console.log(`vss-ceil ${vss}`)
+console.log(`sid-round ${sid}`)
 
+//To use math object we do not have to create object
 

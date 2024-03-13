@@ -213,3 +213,11 @@
 //     console.log(sid.msg)
 // }
 // throw new Error {"Its related to alert"}
+
+var sid=[1,2,3,4,5,6,7,8,9,10]
+var all5=sid.every((x)=>x>5)
+console.log(`All value in sid are over 5 is ${all5}`)
+
+var vishen=[1,2,3,454,12,43,56,78]
+var all10=vishen.every((x)=>x<1000)
+console.log(`In vishen array all values are over 10 is ${all10}`)

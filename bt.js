@@ -1,6 +1,7 @@
 const sidd=document.getElementById("hed")
 let start=document.getElementById("start")
 let stop=document.getElementById("stop")
+let stb
 
 function sid() {
     sidd.innerHTML="I am clicked 2 sec later"
@@ -12,17 +13,20 @@ function sid() {
 
 // let clrts=setInterval(sid,2000)
 
-let startf=function Starttime() {
-    setInterval(sid,3000)
+function Starttime() {
+    if (!stb) {
+        stb=setInterval(sid,1000)
+    }
     console.log("start")
 }
 
-let vishen=setInterval(sid,3000)
+// let vishen=setInterval(sid,3000,(click=sid))
 function clr() {
-    clearInterval(vishen)
+    clearInterval(stb)
+    stb=null
     console.log("stop")
 }
 
 stop.addEventListener("click",clr)
-start.addEventListener("click",vishen)
+start.addEventListener("click",Starttime)
 

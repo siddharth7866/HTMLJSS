@@ -1,9 +1,21 @@
-// const sid={
-//     name:"Siddharth",
-//     profession:"Web Developer",
-//     Education:"B.Tech"
-// }
+const sidd=document.getElementById("hed")
+let start=document.getElementById("start")
+let stop=document.getElementById("stop")
 
-// let vis=JSON.stringify(sid)
+function sid() {
+    sidd.innerHTML="I am clicked 2 sec later"
+    console.log("func executed",Date.now())
+}
 
-// console.log(typeof(sid))
+
+
+
+let clrt=setInterval(sid,2000)
+
+function clr(params) {
+    clearTimeout(clrt)
+    
+}
+
+stop.addEventListener("click",clr)
+

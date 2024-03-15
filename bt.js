@@ -17,6 +17,7 @@ function Starttime() {
     if (!stb) {
         stb=setInterval(sid,1000)
     }
+    console.log(typeof(stb))
     console.log("start")
 }
 

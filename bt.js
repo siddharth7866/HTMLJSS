@@ -1,7 +1,9 @@
+// const sid={
+//     name:"Siddharth",
+//     profession:"Web Developer",
+//     Education:"B.Tech"
+// }
 
-try{
-    alddert("Hi I am siddharth")
-}
-catch(err){
-    console.log(err.msg)
-}
+// let vis=JSON.stringify(sid)
+
+// console.log(typeof(sid))

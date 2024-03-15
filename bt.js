@@ -10,13 +10,19 @@ function sid() {
 
 
 
-let clrt=setInterval(sid,2000)
+// let clrts=setInterval(sid,2000)
 
-function clr(params) {
-    clearTimeout(clrt)
+let startf=function Starttime() {
+    setInterval(sid,3000)
+    console.log("start")
+}
+
+let vishen=setInterval(sid,3000)
+function clr() {
+    clearInterval(vishen)
     console.log("stop")
-    
 }
 
 stop.addEventListener("click",clr)
+start.addEventListener("click",vishen)
 

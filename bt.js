@@ -14,6 +14,7 @@ let clrt=setInterval(sid,2000)
 
 function clr(params) {
     clearTimeout(clrt)
+    console.log("stop")
     
 }
 

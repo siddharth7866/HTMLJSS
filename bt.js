@@ -75,3 +75,13 @@ function sid(a,b=100){
 
 sid(2,3)
 
+// let a
+function sid(){
+    a=10
+    console.log(a)
+}
+
+sid()
+
+console.log(`A is from sid${a}`)
+

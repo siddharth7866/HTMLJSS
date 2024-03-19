@@ -84,4 +84,14 @@ function sid(){
 sid()
 
 console.log(`A is from sid${a}`)
+function sid(){
+    let counter=0
+    console.log(counter)
+    function plus(){
+        console.log(`counter is from sid :${counter}`)
+    }
+    plus()
+}
+
+sid()
 

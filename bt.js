@@ -38,23 +38,23 @@
 // stop.addEventListener("click",clr)
 // start.addEventListener("click",Starttime)
 
-let strng="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
- strng=strng +'#@!*&%'
- strng=strng+'1234567890'
+// let strng="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+//  strng=strng +'#@!*&%'
+//  strng=strng+'1234567890'
  
- let rand=Math.floor((Math.random()*10))
-// console.log(strng)
-let pass=""
-console.log(rand)
+//  let rand=Math.floor((Math.random()*10))
+// // console.log(strng)
+// let pass=""
+// console.log(rand)
 
-for (let index = 0; index < rand; index++) {
-    const element = strng[index];
-    pass=pass+element
-    // console.log(element)
+// for (let index = 0; index < rand; index++) {
+//     const element = strng[index];
+//     pass=pass+element
+//     // console.log(element)
     
-}
+// }
 
-console.log(pass)
+// console.log(pass)
 //  console.log(pass)
 //  console.log(`Random Number ${rand}`)
 
@@ -69,29 +69,42 @@ console.log(pass)
 // }
 
 // console.log(Sid(1,2,3,4,5,6,7,8,9,10))
-function sid(a,b=100){
-    console.log(a+b)
+// function sid(a,b=100){
+//     console.log(a+b)
+// }
+
+// sid(2,3)
+
+// // let a
+// function sid(){
+//     a=10
+//     console.log(a)
+// }
+
+// sid()
+
+// console.log(`A is from sid${a}`)
+// function sid(){
+//     let counter=0
+//     console.log(counter)
+//     function plus(){
+//         console.log(`counter is from sid :${counter}`)
+//     }
+//     plus()
+// }
+
+// sid()
+
+try {
+    let s
+     s="Sidd"
+    console.log(s+8)
+} catch (error) {
+    throw error
 }
 
-sid(2,3)
 
-// let a
-function sid(){
-    a=10
-    console.log(a)
+function sid(x){
+    console.log(`Hello I am ${x}`)
 }
-
-sid()
-
-console.log(`A is from sid${a}`)
-function sid(){
-    let counter=0
-    console.log(counter)
-    function plus(){
-        console.log(`counter is from sid :${counter}`)
-    }
-    plus()
-}
-
-sid()
-
+setTimeout(function(){sid("Rajat");},1000)

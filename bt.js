@@ -59,5 +59,19 @@ console.log(pass)
 //  console.log(`Random Number ${rand}`)
 
 //  console.log(strng[3])
- 
+ // (function(){
+//     console.log("Hello Siddharth")
+// })
+
+
+// function Sid(...x){
+//     return x.reduce((x,y)=>x+y,0)
+// }
+
+// console.log(Sid(1,2,3,4,5,6,7,8,9,10))
+function sid(a,b=100){
+    console.log(a+b)
+}
+
+sid(2,3)
 

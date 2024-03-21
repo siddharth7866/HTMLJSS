@@ -95,16 +95,28 @@
 
 // sid()
 
-try {
-    let s
-     s="Sidd"
-    console.log(s+8)
-} catch (error) {
-    throw error
-}
+// try {
+//     let s
+//      s="Sidd"
+//     console.log(s+8)
+// } catch (error) {
+//     throw error
+// }
 
 
-function sid(x){
-    console.log(`Hello I am ${x}`)
-}
-setTimeout(function(){sid("Rajat");},1000)
+// function sid(x){
+//     console.log(`Hello I am ${x}`)
+// }
+// setTimeout(function(){sid("Rajat");},1000)
+async function fetchData() {
+    const response = await fetch("https://api.adviceslip.com/advice");
+    let data = await response.json();
+    let advice=data.slip.advice;
+    console.log(data.slip.id)
+    // console.log(advice)
+    
+  //   return data.slip.advice
+  }
+  fetchData()
+
+  console.log("I am written after fetch data")

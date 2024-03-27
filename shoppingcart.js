@@ -221,3 +221,5 @@ console.log(`All value in sid are over 5 is ${all5}`)
 var vishen=[1,2,3,454,12,43,56,78]
 var all10=vishen.every((x)=>x<1000)
 console.log(`In vishen array all values are over 10 is ${all10}`)
+
+

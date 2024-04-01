@@ -113,9 +113,9 @@ async function fetchData() {
     let data = await response.json();
     let advice=data.slip.advice;
     console.log(data.slip.id)
-    // console.log(advice)
+    console.log(advice)
     
-  //   return data.slip.advice
+    return data.slip.advice
   }
   fetchData()
 

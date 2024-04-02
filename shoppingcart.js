@@ -243,3 +243,18 @@
 // console.log(typeof(sid))
 
 console.log(new Date(2037,10,31))
+
+let now=new Date()
+let date=`${now.getDate()}`.padStart(2,0)
+let year=now.getFullYear().toString()
+let year2=year.slice(-2)
+let month=now.getMonth()+1
+let minute=now.getMinutes()
+let hour=now.getHours()
+
+console.log(`${date}/${month}/${year2},${hour}:${minute}`)
+
+const locale=navigator.language
+let nav=navigator
+console.log(locale)
+console.log(nav)

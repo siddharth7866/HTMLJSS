@@ -214,30 +214,32 @@
 // }
 // throw new Error {"Its related to alert"}
 
-var sid=[1,2,3,4,5,6,7,8,9,10]
-var all5=sid.every((x)=>x>5)
-console.log(`All value in sid are over 5 is ${all5}`)
+// var sid=[1,2,3,4,5,6,7,8,9,10]
+// var all5=sid.every((x)=>x>5)
+// console.log(`All value in sid are over 5 is ${all5}`)
 
-var vishen=[1,2,3,454,12,43,56,78]
-var all10=vishen.every((x)=>x<1000)
-console.log(`In vishen array all values are over 10 is ${all10}`)
+// var vishen=[1,2,3,454,12,43,56,78]
+// var all10=vishen.every((x)=>x<1000)
+// console.log(`In vishen array all values are over 10 is ${all10}`)
 
 
-console.log(Math.trunc(-23.4))
-console.log(Math.floor(-23.4))
+// console.log(Math.trunc(-23.4))
+// console.log(Math.floor(-23.4))
 
-let shahi=3.4.toFixed(3)
-console.log(typeof(+shahi))
+// let shahi=3.4.toFixed(3)
+// console.log(typeof(+shahi))
 
-let sid=12334_45
-console.log(sid)
+// let sid=12334_45
+// console.log(sid)
 
-let PI=3.14
-console.log(PI)
-console.log(Number.MAX_SAFE_INTEGER)
-console.log(2**53+3)
+// let PI=3.14
+// console.log(PI)
+// console.log(Number.MAX_SAFE_INTEGER)
+// console.log(2**53+3)
 
-const bigint=BigInt(23)
-const sid="siddharth"
-console.log(typeof(bigint))
-console.log(typeof(sid))
+// const bigint=BigInt(23)
+// const sid="siddharth"
+// console.log(typeof(bigint))
+// console.log(typeof(sid))
+
+console.log(new Date(2037,10,31))

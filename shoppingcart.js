@@ -228,3 +228,11 @@ console.log(Math.floor(-23.4))
 
 let shahi=3.4.toFixed(3)
 console.log(typeof(+shahi))
+
+let sid=12334_45
+console.log(sid)
+
+let PI=3.14
+console.log(PI)
+console.log(Number.MAX_SAFE_INTEGER)
+console.log(2**53+3)

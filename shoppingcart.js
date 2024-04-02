@@ -236,3 +236,8 @@ let PI=3.14
 console.log(PI)
 console.log(Number.MAX_SAFE_INTEGER)
 console.log(2**53+3)
+
+const bigint=BigInt(23)
+const sid="siddharth"
+console.log(typeof(bigint))
+console.log(typeof(sid))

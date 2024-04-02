@@ -223,3 +223,8 @@ var all10=vishen.every((x)=>x<1000)
 console.log(`In vishen array all values are over 10 is ${all10}`)
 
 
+console.log(Math.trunc(-23.4))
+console.log(Math.floor(-23.4))
+
+let shahi=3.4.toFixed(3)
+console.log(typeof(+shahi))

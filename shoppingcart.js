@@ -301,3 +301,23 @@ time.addEventListener("click",vishen)
 // console.log(vishen.reduce((x,y)=>{
 //     return x+y
 // },0))
+
+
+// const dogAge=[5,2,4,1,15,8,3]
+// const
+
+// function calcAverageHumanAge(a){
+//     let age=a
+//     .map((x)=>x<=2?2*x:16+x*4)
+//     .filter((x)=>x>18)
+//     .reduce((x,y,i,arr)=>(x+y/arr.length),0)
+//     // console.log(age)
+//     // let ftr=age.filter((x)=>x>18)
+//     // console.log(ftr)
+//     // let average=ftr.reduce((x,y)=>(x+y),0)
+//     console.log(`The average age of dog is ${age}`)
+   
+// }
+
+
+// calcAverageHumanAge(dogAge)

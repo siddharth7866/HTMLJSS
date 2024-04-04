@@ -258,3 +258,46 @@ const locale=navigator.language
 let nav=navigator
 console.log(locale)
 console.log(nav)
+
+let par=document.getElementById("demo")
+let btn=document.getElementById("btn")
+console.log(par)
+console.log(btn)
+let tc=0
+
+function sid(){
+    
+    let html=`
+    <h1> I am clicked and I came after the button clicked</h1>
+    <h2>Hello Guys</h2>
+    `
+    if(tc<1){
+        par.insertAdjacentHTML("afterbegin",html)
+        tc=tc+1
+    }else{
+        alert("Not more than 1")
+        return
+    }
+    
+}
+
+btn.addEventListener("click",sid)
+
+let time=document.getElementById("time")
+
+function vishen() {
+    tc=0
+    par.innerHTML=''
+    console.log("clecked time")
+}
+
+time.addEventListener("click",vishen)
+
+// const sid=[1,[1,2,3]]
+// const vishen=[1,2,3,4,5]
+
+// console.log(sid.flat().reduce((x,y)=>(x+y),0))
+
+// console.log(vishen.reduce((x,y)=>{
+//     return x+y
+// },0))

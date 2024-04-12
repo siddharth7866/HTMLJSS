@@ -325,3 +325,15 @@ time.addEventListener("click",vishen)
 (function(){
     console.log("Hello Siddharth")
 })()
+
+function findmax(){
+    let max=0
+    for(let i=0;i<arguments.length;i++){
+        if(arguments[i]>max){
+            max=arguments[i]
+        }
+    }
+    console.log(max)
+}
+
+findmax(1,2,3,4,5,6)

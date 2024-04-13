@@ -337,3 +337,22 @@ function findmax(){
 }
 
 findmax(1,2,3,4,5,6)
+
+const person={
+    fullName:function(){
+        return this.firstName + " "+ this.lastName;
+    }
+}
+
+function intro(){
+    return`I am ${this.firstName} and family name is ${this.lastName}`
+}
+
+const sid={
+    firstName:"Siddharth",
+    lastName:"Vishen"
+    
+}
+
+let sidd=intro.bind(sid)
+console.log(sidd())

@@ -356,3 +356,8 @@ const sid={
 
 let sidd=intro.bind(sid)
 console.log(sidd())
+
+//create context
+//provide context
+//consume the context
+

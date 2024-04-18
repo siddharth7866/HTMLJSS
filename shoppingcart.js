@@ -364,6 +364,6 @@ console.log(sidd())
 //usecontext context provider
 
 //React Js Interview Question
-// What is callbacl and use effect
+// What is callbacl and use effect and usememo
 
 

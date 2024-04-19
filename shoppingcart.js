@@ -365,5 +365,6 @@ console.log(sidd())
 
 //React Js Interview Question
 // What is callbacl and use effect and usememo
+//npm create vite@latest 
 
 

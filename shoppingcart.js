@@ -1,3 +1,6 @@
+
+/*
+
 // // // let sid=document.getElementsByTagName('h1')[0]
 
 // // // function Sid() {
@@ -322,40 +325,40 @@ time.addEventListener("click",vishen)
 
 // calcAverageHumanAge(dogAge)
 
-(function(){
-    console.log("Hello Siddharth")
-})()
+// (function(){
+//     console.log("Hello Siddharth")
+// })()
 
-function findmax(){
-    let max=0
-    for(let i=0;i<arguments.length;i++){
-        if(arguments[i]>max){
-            max=arguments[i]
-        }
-    }
-    console.log(max)
-}
+// function findmax(){
+//     let max=0
+//     for(let i=0;i<arguments.length;i++){
+//         if(arguments[i]>max){
+//             max=arguments[i]
+//         }
+//     }
+//     console.log(max)
+// }
 
-findmax(1,2,3,4,5,6)
+// findmax(1,2,3,4,5,6)
 
-const person={
-    fullName:function(){
-        return this.firstName + " "+ this.lastName;
-    }
-}
+// const person={
+//     fullName:function(){
+//         return this.firstName + " "+ this.lastName;
+//     }
+// }
 
-function intro(){
-    return`I am ${this.firstName} and family name is ${this.lastName}`
-}
+// function intro(){
+//     return`I am ${this.firstName} and family name is ${this.lastName}`
+// }
 
-const sid={
-    firstName:"Siddharth",
-    lastName:"Vishen"
+// const sid={
+//     firstName:"Siddharth",
+//     lastName:"Vishen"
     
-}
+// }
 
-let sidd=intro.bind(sid)
-console.log(sidd())
+// let sidd=intro.bind(sid)
+// console.log(sidd())
 
 //create context
 //provide context
@@ -368,3 +371,44 @@ console.log(sidd())
 //npm create vite@latest 
 
 
+
+
+let rajat={
+    Name:"Siddharth",
+    City:"Gorakhpur",
+    Hobbies:{
+        play:{
+            outdoor:"cricket",
+            indoor:"Board Games",
+            pool:{
+                river:"Boating",
+                sea:"Scuba",
+            }
+        
+        }
+        
+    }
+}
+
+const{Name,Hobbies:{play:{pool:{river}}}}=rajat
+
+console.log(Name)
+console.log(river)
+
+*/
+
+let rajat={
+    Name:"Siddharth",
+    City:"Gorakhpur",
+    Hobbies:{
+        play:{
+            outdoor:"cricket",
+            indoor:"BoardGames",
+        },
+        eating:"Dahibada"
+    }
+}
+
+
+const{Name}=rajat
+console.log(Name)

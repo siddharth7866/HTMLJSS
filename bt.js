@@ -108,15 +108,21 @@
 //     console.log(`Hello I am ${x}`)
 // }
 // setTimeout(function(){sid("Rajat");},1000)
-async function fetchData() {
-    const response = await fetch("https://api.adviceslip.com/advice");
-    let data = await response.json();
-    let advice=data.slip.advice;
-    console.log(data.slip.id)
-    console.log(advice)
+// async function fetchData() {
+//     const response = await fetch("https://api.adviceslip.com/advice");
+//     let data = await response.json();
+//     let advice=data.slip.advice;
+//     console.log(data.slip.id)
+//     console.log(advice)
     
-    return data.slip.advice
-  }
-  fetchData()
+//     return data.slip.advice
+//   }
+//   fetchData()
 
-  console.log("I am written after fetch data")
+//   console.log("I am written after fetch data")
+
+function AddFive(val){
+  return val+5
+};
+
+//Learning Go

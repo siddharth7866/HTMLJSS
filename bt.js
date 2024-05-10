@@ -121,9 +121,9 @@
 
 //   console.log("I am written after fetch data")
 
-function AddFive(val){
-  return val+5
-};
+// function AddFive(val){
+//   return val+5
+// };
 
 //Learning Go
 
@@ -137,46 +137,47 @@ function AddFive(val){
 //   console.log("Yes I am in")
 // }
 
-let stop=document.getElementById("stop")
+// let stop=document.getElementById("stop")
 
 
-let v=0
+// let v=0
 
-// const vishen=setInterval(Sid,1000)
-function sid(){
-    const S="I am siddharth"
-    v=v+1
-    if(v===6){
-      console.log("Tank Full")
-      return
-    }
-    console.log(typeof(v))
-    console.log(`${S}:${v}`)
-    // if(v>=10){
-    //   Stop()
-    }
+// // const vishen=setInterval(Sid,1000)
+// function sid(){
+//     const S="I am siddharth"
+//     v=v+1
+//     if(v===6){
+//       console.log("Tank Full")
+//       return
+//     }
+//     console.log(typeof(v))
+//     console.log(`${S}:${v}`)
+//     // if(v>=10){
+//     //   Stop()
+//     }
 
-// const rajat=function(){
-//   setInterval(sid,1000)
-// }
-// rajat()
-const rajat=setInterval(sid,1000)
+// // const rajat=function(){
+// //   setInterval(sid,1000)
+// // }
+// // rajat()
+// const rajat=setInterval(sid,1000)
 
-function Stop(){
-    console.log("Stop clicked")
-    clearInterval(rajat)
+// function Stop(){
+//     console.log("Stop clicked")
+//     clearInterval(rajat)
     
 
-    }
+//     }
 
 
-setTimeout(()=>{clearInterval(rajat);},6000)
-stop.addEventListener("click",Stop)
+// setTimeout(()=>{clearInterval(rajat);},6000)
+// stop.addEventListener("click",Stop)
 
-// 
+// // 
 
+// let rajat=
 
-const{sid,vishen}={name:"Siddharth",prof:"Web developer"}
+// const{name,prof}={name:"Siddharth",prof:"Web developer"}
 
-console.log(sid)
-console.log(vishen)
+// console.log(name)
+// console.log(prof)

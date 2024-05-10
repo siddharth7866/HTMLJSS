@@ -126,3 +126,57 @@ function AddFive(val){
 };
 
 //Learning Go
+
+//
+// try {
+//   const sid=vishen+10
+//   console.log(sid)
+// } catch (e) {
+//   console.log(e)
+// }finally{
+//   console.log("Yes I am in")
+// }
+
+let stop=document.getElementById("stop")
+
+
+let v=0
+
+// const vishen=setInterval(Sid,1000)
+function sid(){
+    const S="I am siddharth"
+    v=v+1
+    if(v===6){
+      console.log("Tank Full")
+      return
+    }
+    console.log(typeof(v))
+    console.log(`${S}:${v}`)
+    // if(v>=10){
+    //   Stop()
+    }
+
+// const rajat=function(){
+//   setInterval(sid,1000)
+// }
+// rajat()
+const rajat=setInterval(sid,1000)
+
+function Stop(){
+    console.log("Stop clicked")
+    clearInterval(rajat)
+    
+
+    }
+
+
+setTimeout(()=>{clearInterval(rajat);},6000)
+stop.addEventListener("click",Stop)
+
+// 
+
+
+const{sid,vishen}={name:"Siddharth",prof:"Web developer"}
+
+console.log(sid)
+console.log(vishen)

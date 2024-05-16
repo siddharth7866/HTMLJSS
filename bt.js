@@ -173,6 +173,22 @@
 // setTimeout(()=>{clearInterval(rajat);},6000)
 // stop.addEventListener("click",Stop)
 
+
+
+let sid=3
+let vishen=20
+
+try{
+    if(vishen+sid<15){
+        throw new Error("I am an error")
+    }
+}
+catch(error){
+    console.log(error)
+}finally{
+    console.log("Goood Job")
+}
+
 // // 
 
 // let rajat=

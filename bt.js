@@ -175,19 +175,19 @@
 
 
 
-let sid=3
-let vishen=20
+// let sid=3
+// let vishen=20
 
-try{
-    if(vishen+sid<15){
-        throw new Error("I am an error")
-    }
-}
-catch(error){
-    console.log(error)
-}finally{
-    console.log("Goood Job")
-}
+// try{
+//     if(vishen+sid<15){
+//         throw new Error("I am an error")
+//     }
+// }
+// catch(error){
+//     console.log(error)
+// }finally{
+//     console.log("Goood Job")
+// }
 
 // // 
 
@@ -197,3 +197,23 @@ catch(error){
 
 // console.log(name)
 // console.log(prof)
+
+
+let value=prompt("enter the value")
+
+try {
+    if(value>12)throw new Error("I am from error")
+} catch (error) {
+    alert(error)
+}
+
+let school={
+    name:"Siddharth",
+    play:function(){
+        return console.log(`Lets play ${this.name}`)
+        
+    },
+    hobbies:"Digital Book"
+}
+
+console.log(school.play() || "Method not  exist")

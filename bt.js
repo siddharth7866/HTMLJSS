@@ -199,21 +199,49 @@
 // console.log(prof)
 
 
-let value=prompt("enter the value")
+// let value=prompt("enter the value")
 
-try {
-    if(value>12)throw new Error("I am from error")
-} catch (error) {
-    alert(error)
-}
+// try {
+//     if(value>12)throw new Error("I am from error")
+// } catch (error) {
+//     alert(error)
+// }
 
-let school={
-    name:"Siddharth",
-    play:function(){
-        return console.log(`Lets play ${this.name}`)
+// let school={
+//     name:"Siddharth",
+//     play:function(){
+//         return console.log(`Lets play ${this.name}`)
         
-    },
-    hobbies:"Digital Book"
+//     },
+//     hobbies:"Digital Book"
+// }
+
+// console.log(school.play() || "Method not  exist")
+
+const lufthansa={
+    airline:'Lufthansa',
+    iatacode:'LH',
+    bookings:[],
+    book(flightnum,name){
+        console.log(`${name} booked a seat on flight ${this.airline}, ${this.iatacode} with  ${flightnum}`);
+      this.bookings.push({flight:`${this.iatacode}${flightnum}`,name});
+    }
+    
 }
 
-console.log(school.play() || "Method not  exist")
+
+lufthansa.book("123","Siddharth")
+lufthansa.book("321","Rajat Shahi")
+lufthansa.book("987","David")
+
+let sid=lufthansa.bookings
+console.log(lufthansa.bookings[2])
+
+const eurowings={
+    name:'Eurowings',
+    iatacode:'EW',
+    bookings:[],
+}
+
+const book=lufthansa.book
+book("123","Amit singh")

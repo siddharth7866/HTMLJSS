@@ -244,4 +244,8 @@ const eurowings={
 }
 
 const book=lufthansa.book
-book("123","Amit singh")
+book.call(eurowings,"123","Amit singh")
+book.call(lufthansa,"390","Amit Dubey")
+book.call(lufthansa,"390","Amit Dubey")
+console.log(eurowings.bookings)
+console.log(setlufthansa.bookings)
